@@ -356,16 +356,17 @@
 
     <section id="section-6" class="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
-        <form action="https://formspree.io/f/meqyngoq" method="POST">
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="1f674fa2-73d3-49f4-9a3a-71d1567da872">
             <div class="input-box">
-                <input type="text" name="name" placeholder="Name" required="" fdprocessedid="lif8gn">
-                <input type="email" placeholder="Email ID" required="" fdprocessedid="dnswzo">
-                <input type="Number" placeholder="Phone Number" required="" fdprocessedid="qmq4wj">
-                <input type="text" name="name" placeholder="Address" required="" fdprocessedid="lif8gn">
-                <input type="text" placeholder="Subject" fdprocessedid="ugzke">
+                <input type="text" name="name" placeholder="Name" required="" fdprocessedid="lif8gn" required name="name">
+                <input type="email" placeholder="Email ID" required="" fdprocessedid="dnswzo" required name="email id">
+                <input type="Number" placeholder="Phone Number" required="" fdprocessedid="qmq4wj" required name="phone number">
+                <input type="text" name="name" placeholder="Address" required="" fdprocessedid="lif8gn" required name="address">
+                <input type="text" placeholder="Subject" fdprocessedid="ugzke" required name="subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn" fdprocessedid="ldimga">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message" required name="your message"></textarea>
+            <input type="submit" value="Send Message" class="btn" fdprocessedid="ldimga" required name="submit">
         </form>
     </section>
 
