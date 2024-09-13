@@ -970,8 +970,8 @@ span {
   bottom: 0;
   width: 100%;
   padding: 40px 0;
-  /* background-color: var(--main-color); */
-  background-color: rgba(50, 50, 50, 0.327);
+  /* background-color: var(--bg-color); */
+  /* background-color: rgba(50, 50, 50, 0.327); */
 }
 
 .footer .social {
