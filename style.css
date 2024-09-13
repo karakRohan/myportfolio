@@ -512,10 +512,10 @@ span {
 
 /* education section */
 
-.education {
-  /* background: var(--second-bg-color); */
+/* .education {
+   background: var(--second-bg-color); 
   background-color: black;
-}
+} */
 
 .education .timeline {
   position: relative;
