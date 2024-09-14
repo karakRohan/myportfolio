@@ -793,7 +793,7 @@ span {
 
 .skills .container .row {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(6,1fr);
   flex-wrap: wrap;
   gap: 1.8rem;
 }
@@ -810,7 +810,7 @@ span {
 
 .skills .container .bar:hover {
   box-shadow: 0 7px 10px var(--main-color);
-  transform: scale(2.03);
+  transform: scale(2.09);
 }
 
 .skills .container .bar .info {
@@ -822,7 +822,7 @@ span {
 }
 
 .skills .container .bar .info img {
-  width: 4vw;
+  width: 5vw;
 }
 
 .skills .container .bar .info span {
