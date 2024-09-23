@@ -2,106 +2,200 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Portfolio Website(Rohan Karak)</title>
-    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css" />
-    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY Portfolio Website(Rohan Karak)</title>
+    <link rel="shortcut icon" href="./Assets/logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-
     <header class="header">
-        <a href="#home" class="logo">
-            Rohan<span>Karak</span>
-        </a>
-        <i class="bx bx-menu" id="menu-icon"></i>
+        <a href="#" class="logo">Rohan Karak</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
 
         <nav class="navbar">
-            <a href="#home" class="active">Home</a>
-            <a href="#about">About</a>
+            <a href="#section-1" class="active">Home</a>
+            <!-- <a href="#section-2">Introduction</a> -->
+            <a href="#section-2">About</a>
+            <a href="#section-3">Skills</a>
             <a href="#section-4">Education</a>
-            <a href="#section-2">Skill</a>
             <a href="#section-5">Projects</a>
             <a href="#section-6">Contact</a>
         </nav>
 
     </header>
 
-    <section class="home" id="home">
+
+    <section id="section-1" class="home" id="home">
+        <div class="home-img">
+            <img src="./Assets/My Personal Professional Photography.jpg" alt="">
+        </div>
         <div class="home-content">
             <h1>Hii I Am <span>Rohan</span></h1>
-            <h3 class="text-animation">
-                I'm a <span></span>
-            </h3>
-            <p>Hello Everyone, My name is Rohan Karak (Code Rider) and I am a 2nd year student of Computer Science and
-                Engineering
-                (CSE) from Netaji Subhash Engineering College(NSEC) . Garia, Kolkata, West Bengal . </p>
+            <h3 class="typing-text" >I'm a <span ></span></h3>
 
-            <div class="social-icons">
-                <a href="https://github.com/karakRohan">
-                    <i class="bx bxl-github"></i>
-                </a>
-                <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/">
-                    <i class="bx bxl-linkedin"></i>
-                </a>
-
-                <a href="https://www.instagram.com/rohankarak_79?igsh=Z2xqc2xqNDh6YWpi">
-                    <i class="bx bxl-instagram-alt"></i>
-                </a>
-
-                <a href="https://x.com/rohankarak_79?t=I_qPP1A7YKivEyu6_divSg&s=09">
-                    <i class="bx bxl-twitter"></i>
-                </a>
-
-                <a href="https://www.facebook.com/profile.php?id=100041771476786&mibextid=ZbWKwL">
-                    <i class="bx bxl-facebook"></i>
-                </a>
-
-                <a href="https://wa.me/9832749304?text= Welcome, How Can I Help You !..">
-                    <i class="bx bxl-whatsapp"></i>
-                </a>
-
-                <a href="#">
-                    <i class="bx bxl-telegram"></i>
-                </a>
-
-                <a href="https://www.youtube.com/@rohankarak_79">
-                    <i class="bx bxl-youtube"></i>
-                </a>
-
-            </div>
-
-            <div class="btn-group">
-                <a href="CV_Rohan1.jpeg" class="btn">Curriculum Vitae(CV)</a>
-                <a href="Contact.jpeg" class="btn">Contact Me</a>
-            </div>
-        </div>
-
-        <div class="home-img">
-            <img src="My Personal Professional Photography.jpg" alt="">
-        </div>
-    </section>
-
-
-    <section class="about" id="about">
-        <div class="about-img">
-            <img src="Photo Copy.jpg" alt="">
-        </div>
-
-        <div class="about-content">
-            <h2 class="heading">About <span>Me</span></h2>
-            <h3 class="text-animation">
-            </h3>
             <p>
-            <H1>Hello Everyone, My name is Rohan Karak (Code Rider) and I am a 2nd year student of Computer Science and
-                Engineering(CSE) from Netaji Subhash Engineering College(NSEC) . Garia, Kolkata West Bengal .</p>
-                <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/" class="btn">Read More</a>
+                Hello Everyone, My name is Rohan Karak (Code Rider) and I am a 2nd year student of Computer Science and
+                Engineering
+                (CSE) from Netaji Subhash Engineering College(NSEC) . Garia, Kolkata, West Bengal .</p>
+
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/karakRohan" target="_blank"><i class="fa-brands fa-github" ></i></a>
+                <a href="https://www.youtube.com/@rohankarak_79" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://www.instagram.com/rohankarak_79?igsh=Z2xqc2xqNDh6YWpi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://wa.me/9832749304?text= Welcome, How Can I Help You !.." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://x.com/rohankarak_79?t=I_qPP1A7YKivEyu6_divSg&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/profile.php?id=100041771476786&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+            </div>
+            <div class="btn-box">
+                <a href="https://wa.me/9832749304?text= Welcome, How Can I Help You !.." class="btn">Contact Me</a>
+                <a href="./Assets/CV_Rohan1.jpeg" class="btn">Curriculum Vitae(CV)</a>
+            </div>
+            
         </div>
     </section>
 
-    <section id="section-4" class="education">
+    <!--  -->
+    <section class="about" id="about">
+        <h2 class="heading">My<span>Introduction</span></h2>
+        
+        <div class="about-content">
+            <div class="about-img">
+                <img src="./Assets/Photo Copy.jpg" alt="">
+            </div>
+            <div class="about-content-text">
+                <p>
+                    Hello Everyone, My name is Rohan Karak (Code Rider) and I am a 2nd year student of Computer Science and
+                    Engineering(CSE) from Netaji Subhash Engineering College(NSEC). Garia, Kolkata, West Bengal .
+                </p>
+                <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+    <!--  -->
+
+    <section id="section-2" class="services">
+        <h2 class="heading">About <span>Me</span></h2>
+        <div class="services-container">
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>C and C++ With DSA :-</h4>
+                    <p>I'm learning data structures and algorithms (DSA) in C and C++, focusing on enhancing my
+                        problem-solving skills. My goal is to master core concepts like arrays, linked lists, and
+                        sorting algorithms etc..</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Developer :-</h4>
+                    <p>I'm learning web development, focusing on front-end and back-end technologies. I'm building
+                        skills in HTML, CSS, JavaScript, and exploring frameworks like React and Node.js for full-stack
+                        development.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Web Designer :-</h4>
+                    <p>I'm developing my web design skills, focusing on creating user-friendly and visually appealing
+                        websites. I'm learning HTML, CSS, and responsive design to build effective and engaging web
+                        pages.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4> Frontend Developement :-</h4>
+                    <p>
+                        I'm learning frontend development, focusing on HTML, CSS, and JavaScript to create responsive
+                        and interactive web pages. My goal is to build user-friendly and visually appealing websites.
+                    </p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Backend Development :-</h4>
+                    <p>
+                        I'm currently learning backend development, focusing on server-side technologies, databases, and
+                        APIs. My aim is to build efficient, scalable systems and deepen my understanding of backend
+                        architecture.</p>
+                </div>
+            </div>
+            <div class="service-box">
+                <div class="service-info">
+                    <h4>Communication Skill :-</h4>
+                    <p>
+                        I'm improving my communication skills, focusing on clarity, active listening, and effective
+                        expression. This development enhances my ability to collaborate, present ideas, and engage in
+                        meaningful discussions.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+    <section id="section-3" class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/C++.png" alt="">
+                        <span>C++ With DSA</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/letter-c.png" alt="">
+                        <span>C</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/html (1).png" alt="">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/css-3.png" alt="">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/js (1).png" alt="">
+                        <span>Java Script</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/python.png" alt="">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./Assets/bootstrap.png" alt="">
+                        <span>BootStrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="section-4" class="education" id="education">
         <h2 class="heading">My <span>Education</span></h2>
         <div class="timeline">
             <div class="container left">
@@ -161,142 +255,22 @@
                     <div class="decs">
                         <p>Garhbeta High School (HS)<br>Class Xi and Xii<br>Higher Secondary Education:-63%
                             (HS)<br>Stream:
-                            Science (P C M)
+                            Science (P C M)</p>
                     </div>
                 </div>
             </div>
-
+           
         </div>
     </section>
 
-    <section id="section-2" class="services">
-        <h2 class="heading">My <span>Skill</span></h2>
-        <div class="services-container">
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>C and C++ With DSA :-</h4>
-                    <p>I'm learning data structures and algorithms (DSA) in C and C++, focusing on enhancing my
-                        problem-solving skills. My goal is to master core concepts like arrays, linked lists, and
-                        sorting algorithms etc.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Web Developer :-</h4>
-                    <p>I'm learning web development, focusing on front-end and back-end technologies. I'm building
-                        skills in HTML, CSS, JavaScript, and exploring frameworks like React and Node.js for full-stack
-                        development.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Web Designer :-</h4>
-                    <p>I'm developing my web design skills, focusing on creating user-friendly and visually appealing
-                        websites. I'm learning HTML, CSS, and responsive design to build effective and engaging web
-                        pages.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4> Frontend Developement :-</h4>
-                    <p>
-                        I'm learning frontend development, focusing on HTML, CSS, and JavaScript to create responsive
-                        and interactive web pages. My goal is to build user-friendly and visually appealing websites.
-                    </p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Backend Development :-</h4>
-                    <p>
-                        I'm currently learning backend development, focusing on server-side technologies, databases, and
-                        APIs. My aim is to build efficient, scalable systems and deepen my understanding of backend
-                        architecture.</p>
-                </div>
-            </div>
-            <div class="service-box">
-                <div class="service-info">
-                    <h4>Communication Skill :-</h4>
-                    <p>
-                        I'm improving my communication skills, focusing on clarity, active listening, and effective
-                        expression. This development enhances my ability to collaborate, present ideas, and engage in
-                        meaningful discussions.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- My Skill  -->
-
-    <section id="section-3" class="skills">
-        <h2 class="heading">Language <span>Skills</span></h2>
-        <div class="container">
-            <div class="row" id="skillsContainer">
-                <div class="bar">
-                    <div class="info">
-                        <img src="C.png" alt="">
-                        <span>
-                            <h4>C With DSA</h4>
-                        </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="C++.png" alt="">
-                        <span>
-                            <h5>C++ With DSA</h5>
-                        </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="HTML_Logo.jpeg" alt="">
-                        <span>
-                            <h4>HTML</h4>
-                        </span>
-                    </div>
-                </div>
-                <div class="bar">
-                    <div class="info">
-                        <img src="CSS.png" alt="">
-                        <span>
-                            <h4>CSS</h4>
-                        </span>
-                    </div>
-                </div>
-
-
-                <div class="bar">
-                    <div class="info">
-                        <img src="Js.png" alt="">
-                        <span>
-                            <h4>JavaScript</h4>
-                        </span>
-                    </div>
-                </div>
-
-                <div class="bar">
-                    <div class="info">
-                        <img src="Python.png" alt="">
-                        <span>
-                            <h4>Python</h4>
-                        </span>
-                    </div> 
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- My skill -->
-
-    <!-- projects -->
+       <!-- Project -->
 
     <section id="section-5" class="courses">
-        <h2>My <span>Popular</span> Projects</h2>
+        <h2>My <span>Popular</span> projects</h2>
         <div class="container courses__container">
             <article class="course">
                 <div class="course__image">
-                    <img src="Help_Health_Care.png" alt="">
+                    <img src="./Assets/Help_Health_Care.png" alt="">
                 </div>
                 <div class="course__info">
                     <h4>Help Health Care</h4>
@@ -308,10 +282,10 @@
                         More</a>
                 </div>
             </article>
-
+    
             <article class="course">
                 <div class="course__image">
-                    <img src="Indian_Flag.png" alt="">
+                    <img src="./Assets/Indian_Flag.png" alt="">
                 </div>
                 <div class="course__info">
                     <h4>Indian Flag</h4>
@@ -322,9 +296,10 @@
                         More</a>
                 </div>
             </article>
+
             <article class="course">
                 <div class="course__image">
-                    <img src="Foodie_Fire.png" alt="">
+                    <img src="./Assets/Foodie_Fire.png" alt="">
                 </div>
                 <div class="course__info">
                     <h4>Foodie Fire</h4>
@@ -334,9 +309,10 @@
                     <a href="https://karakrohan.github.io/Foodie-fire/" target="_blank" class="btn btn-primary">Learn More</a>
                 </div>
             </article>
+
             <article class="course">
                 <div class="course__image">
-                    <img src="Collegewebpage.png" alt="">
+                    <img src="./Assets/Collegewebpage.png" alt="">
                 </div>
                 <div class="course__info">
                     <h4>College Web Page</h4>
@@ -346,14 +322,40 @@
                     <a href="https://karakrohan.github.io/College-Web-Page/" target="_blank" class="btn btn-primary">Learn More</a>
                 </div>
             </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./Assets/Collegewebpage.png" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>College Web Page</h4>
+                    <p>
+                    <h4>This is My College Web Page</h4>
+                    </p>
+                    <a href="https://karakrohan.github.io/College-Web-Page/" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
+            <article class="course">
+                <div class="course__image">
+                    <img src="./Assets/Collegewebpage.png" alt="">
+                </div>
+                <div class="course__info">
+                    <h4>College Web Page</h4>
+                    <p>
+                    <h4>This is My College Web Page</h4>
+                    </p>
+                    <a href="https://karakrohan.github.io/College-Web-Page/" target="_blank" class="btn btn-primary">Learn More</a>
+                </div>
+            </article>
+
         </div>
     </section>
 
-    <!-- projects -->
 
-    <!-- contact -->
+      <!-- Contact -->
 
-    <section id="section-6" class="contact">
+    <section id="section-6" class="contact" id="contact">
         <h2 class="heading">Contact <span>Me</span></h2>
         <form action="https://api.web3forms.com/submit" method="POST">
             <input type="hidden" name="access_key" value="1f674fa2-73d3-49f4-9a3a-71d1567da872">
@@ -371,49 +373,22 @@
     </section>
 
 
-    <!-- contact -->
-
-    <!-- footer -->
-
     <footer class="footer">
-        <div class="social-icons">
-            <a href="https://github.com/karakRohan">
-                <i class="bx bxl-github"></i>
-            </a>
-            <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/">
-                <i class="bx bxl-linkedin"></i>
-            </a>
-
-            <a href="https://www.instagram.com/rohankarak_79?igsh=Z2xqc2xqNDh6YWpi">
-                <i class="bx bxl-instagram-alt"></i>
-            </a>
-
-            <a href="https://x.com/rohankarak_79?t=I_qPP1A7YKivEyu6_divSg&s=09">
-                <i class="bx bxl-twitter"></i>
-            </a>
-
-            <a href="https://www.facebook.com/profile.php?id=100041771476786&mibextid=ZbWKwL">
-                <i class="bx bxl-facebook"></i>
-            </a>
-
-            <a href="https://wa.me/9832749304?text= Welcome, How Can I Help You !..">
-                <i class="bx bxl-whatsapp"></i>
-            </a>
-
-            <a href="#">
-                <i class="bx bxl-telegram"></i>
-            </a>
-
-            <a href="https://www.youtube.com/@rohankarak_79">
-                <i class="bx bxl-youtube"></i>
-            </a>
+        <div class="social">
+            <a href="https://www.linkedin.com/in/rohan-karak-9a0b78288/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://github.com/karakRohan" target="_blank"><i class="fa-brands fa-github" ></i></a>
+            <a href="https://www.youtube.com/@rohankarak_79" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.instagram.com/rohankarak_79?igsh=Z2xqc2xqNDh6YWpi" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://wa.me/9832749304?text= Welcome, How Can I Help You !.." target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://x.com/rohankarak_79?t=I_qPP1A7YKivEyu6_divSg&s=09" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100041771476786&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
 
         </div>
         <ul class="list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#section-4">Education</a></li>
-            <li><a href="#section-2">Skill</a></li>
+            <li><a href="#section-1">Home</a></li>
+            <li><a href="#section-2">About</a></li>
+            <li><a href="#section-3">Education</a></li>
+            <li><a href="#section-4">Skills</a></li>
             <li><a href="#section-5">Projects</a></li>
             <li><a href="#section-6">Contact</a></li>
         </ul>
@@ -425,7 +400,6 @@
 
     </footer>
 
-    <!-- footer -->
     <script src="script.js"></script>
 </body>
 
