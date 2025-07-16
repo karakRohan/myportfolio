@@ -700,9 +700,9 @@ span {
     left: 0;
 }
 
-.education .right {
+/* .education .right {
     left: 50%;
-}
+} */
 
 .education .left::before {
     content: '';
@@ -727,6 +727,7 @@ span {
     width: 0;
     z-index: 1;
     left: 30px;
+    /* right:-17; */
     border: medium solid var(--main-color);
     border-width: 10px 0 10px 10px;
     border-color: transparent var(--main-color) transparent transparent;
@@ -734,7 +735,8 @@ span {
 }
 
 .education .right::after {
-    left: -16px;
+    /* left: -16px; */
+    right:-17;
 }
 
 .education .content {
