@@ -460,7 +460,7 @@ span {
     }
 
     .about-img {
-        height:15vh;
+        height: 15vh;
         width: 10vh;
     }
 
@@ -736,7 +736,7 @@ span {
 
 .education .right::after {
     /* left: -16px; */
-    right:-17;
+    right: -17;
 }
 
 .education .content {
@@ -1214,5 +1214,5 @@ h2 {
     .courses__container {
         grid-template-columns: 1fr 1fr;
     }
-    
+
 }
